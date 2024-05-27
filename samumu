@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura Start</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Alura Start</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#cursos">Cursos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="sobre">
+        <div class="container">
+            <h2>Sobre o Alura Start</h2>
+            <p>O Alura Start é uma plataforma de cursos online para aprender programação, design, marketing digital e muito mais.</p>
+        </div>
+    </section>
+
+    <section id="cursos">
+        <div class="container">
+            <h2>Nossos Cursos</h2>
+            <ul>
+                <li>Curso de HTML</li>
+                <li>Curso de CSS</li>
+                <li>Curso de JavaScript</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contato">
+        <div class="container">
+            <h2>Contato</h2>
+            <p>Entre em contato conosco para obter mais informações sobre nossos cursos.</p>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Alura Start. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
